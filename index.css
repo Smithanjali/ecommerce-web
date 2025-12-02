@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+}
+.rcontainer {
+  background-color: linear-gradient(135deg, #ffecd2, #fcb89f 100%);
+  border-radius: 18px;
+  box-shadow: 0 12px 38px rgba(252, 182, 159,0.3);
+  overflow: hidden;
+  max-height: 800px;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+  
+}
+.rheader {
+  background-color:brown;
+  color: white;
+  text-align: center;
+
+}
+.rheader h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+.rheader section {
+  opacity: 0.9;
+  font-size: 0.9rem;
+  background-color: wheat;
+}
+.rdetails {
+  padding: 1.5rem;
+  background-color: aliceblue;
+
+}
+.rdetails p {
+  color: #2d3748;
+  font-size: 1rem;
+  margin: 0.6rem 0;
+  
+  
+  
+}
+.footer {
+  background-color: reba(255,233,255,0.2);
+  padding: 1rem;
+  text-align: center;
+  background-color: wheat;
+
+}
+.footer p {
+  color: #4a5568;
+  font-style: italic;
+  background-color: aliceblue;
+  text-align: center;
+   
+}
+.img {
+  height: 100px;
+  width: 100px;
+  float: right;
+  
+ position: relative;
+  top: 10px;
+  down: 10px;
+  left: 10px;
+  right: 10px;
+ 
+  
+  
+}
+.mainparent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  
+}
+ .smitha {
+  background-color: orangered;
+  height: 50px;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+ }
